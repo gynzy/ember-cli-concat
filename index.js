@@ -40,7 +40,8 @@ module.exports = {
     footer: null,
     header: null,
     preserveOriginal: true,
-    useAsync: false
+    useAsync: false,
+    useDefer: false,
   },
 
   css: {
@@ -229,6 +230,10 @@ module.exports = {
     }
 
     if (ext === 'js') {
+      // Defer takes precedence
+      if (this.js.useDefer) {
+        return '<script defer src="' + path + '"></script>\n';
+      }
       if (this.js.useAsync) {
         return '<script async src="' + path + '"></script>\n';
       }
