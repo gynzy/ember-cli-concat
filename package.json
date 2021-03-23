@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-concat",
+  "name": "@gynzy/ember-cli-concat",
   "version": "2.3.0",
   "description": "An Ember addon that enables you to concatinate Ember CLI's app and vendor files into a single JS file and a single CSS file",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sir-dunxalot/ember-cli-concat.git"
+    "url": "git://github.com/gynzy/ember-cli-concat.git"
   },
   "license": "MIT",
   "author": "",
