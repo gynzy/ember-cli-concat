@@ -41,7 +41,7 @@ module.exports = {
     header: null,
     preserveOriginal: true,
     useAsync: false,
-    useDefer: false,
+    useDefer: false
   },
 
   css: {
