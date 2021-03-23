@@ -1,4 +1,5 @@
 # Ember-cli-concat
+
 [![Build Status](https://travis-ci.org/sir-dunxalot/ember-cli-concat.svg?branch=develop)](https://travis-ci.org/sir-dunxalot/ember-cli-concat)
 [![npm version](https://badge.fury.io/js/ember-cli-concat.svg)](http://badge.fury.io/js/ember-cli-concat)
 [![npm](https://img.shields.io/npm/dm/ember-cli-concat.svg)]()
@@ -51,3 +52,4 @@ yarn test:node
 # Or run both linting and node tests:
 yarn test
 ```
+
